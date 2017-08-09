@@ -55,20 +55,20 @@
 * [Routing](#routing)
 * [E2E Testing](#e2e-testing)
 * [i18n](#i18n)
-* [Performance](#performance)
-* [Contribution](#contribution)
-* [Contributors](#contributors)
+* [Απόδοση](#απόδοση)
+* [Συνεισφορά](#συνεισφορά)
+* [Συνεισφέροντες](#συνεισφέροντες)
 
-# General
+# Γενικά
 
-## Directory structure
+## Δομή καταλόγου
 
-Since a large AngularJS application has many components it's best to structure it in a directory hierarchy.
-There are two main approaches:
+Το AngularJS έχει πολλά components, οπότε είναι καλύτερο να το δομήσετε σε ιεραρχία καταλόγου.
+Υπάρχουν δύο κύριες προσεγγίσεις:
 
-* Creating high-level divisions by component types and lower-level divisions by functionality.
+* Δημιουργία κατηγοριν υψηλού επιπέδου βάσει τύπου component και κατηγοριών χαμηλότερου επιπέδου βσει λειτουργικότητας.
 
-In this way the directory structure will look like:
+Με αυτό τον τρόπο η δομή καταλόγου θα φαίνεται σαν:
 
 ```
 .
@@ -113,9 +113,9 @@ In this way the directory structure will look like:
 └── e2e-tests
 ```
 
-* Creating high-level divisions by functionality and lower-level divisions by component types.
+* Δημιουργώντας κατηγορίες υψηλού επιπέδου βάσει λειτουργικότητας και κατηγορίες χαμηλότερου επιπέδου βάσει τύπου component.
 
-Here is its layout:
+Εδώ φαίνεται η διάταξή του:
 
 ```
 .
@@ -165,7 +165,7 @@ Here is its layout:
 └── e2e-tests
 ```
 
-* In case the directory name contains multiple words, use lisp-case syntax:
+* Σε περίπτωση που το όνομα του καταλόγου περιέχει πολλς λέξεις, χρησιμοποιήστε σύνταξη lisp-case:
 
 ```
 app
