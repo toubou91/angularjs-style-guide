@@ -177,7 +177,7 @@ app
      └── services
 ```
 
-* Put all the files associated with the given directive (i.e. templates, CSS/SASS files, JavaScript) in a single folder. If you choose to use this style be consistent and use it everywhere along your project.
+* Βάλτε όλα τα αρχεία που σχετίζονται με το εκάστοτε directive (π.χ. templates, αρχεία CSS/SASS, JavaScript) σε ένα φάκελο. Εάν διαλέξετε να χρησιμοποιήσετε αυτό το στυλ, να είστε σταθεροί και να κάνετε χρήση του παντού στο πρότζεκτ σας.
 
 ```
 app
@@ -194,8 +194,8 @@ app
         └── directive2.sass
 ```
 
-This approach can be combined with both directory structures above.
-* The unit tests for a given component (`*.spec.js`) should be located in the directory where the component is. This way when you make changes to a given component finding its test is easy. The tests also act as documentation and show use cases.
+Αυτή η προσέγγιση μπορεί να συνδυαστεί και με τις δύο προαναφερθείσες δομές καταλόγου.
+* Τα unit tests για ένα δοθέν component (`*.spec.js`) πρέπει να βρίσκονται στον κατάλογο που βρίσκεται και το ίδιο το component. Κατ'αυτό τον τρόπο, όταν κάνετε αλλαγές στο εκάστοτε component, μπορείτε εύκολα να βρείτε το τεστάκι που αντιστοιχε σε αυτό. Τα τεστάκια, επίσης, δρουν και ως documentation και παρουσιάζουν τα use cases.
 
 ```
 services
@@ -207,15 +207,15 @@ services
     └── model1.spec.js
 ```
 
-* The `app.js` file should contain route definitions, configuration and/or manual bootstrap (if required).
-* Each JavaScript file should only hold **a single component**. The file should be named with the component's name.
-* Use AngularJS project structure template like [Yeoman](http://yeoman.io), [ng-boilerplate](http://ngbp.github.io/ngbp/#/home).
+* Το αρχείο `app.js` πρέπει να περιλαμβάνει ορισμούς των route , configuration και/ή manual bootstrap (αν απαιτείται).
+* Κάθε αρχείο JavaScript πρέπει να διατηρεί **ένα μοναδικό component**. Το αρχείο πρέπει να ονομαστεί με το όνομα του component.
+* Χρησιμοποιείστε ένα template απ το AngularJS, όπως τα [Yeoman](http://yeoman.io), [ng-boilerplate](http://ngbp.github.io/ngbp/#/home).
 
-Conventions about component naming can be found in each component section.
+Συμβάσεις σχετικά με την ονοματολογία των components, μπορείτε να βρείτε σε καθεμιά από τις ενότητες των components.
 
 ## Markup
 
-[TLDR;](http://developer.yahoo.com/blogs/ydn/high-performance-sites-rule-6-move-scripts-bottom-7200.html) Put the scripts at the bottom.
+[TLDR;](http://developer.yahoo.com/blogs/ydn/high-performance-sites-rule-6-move-scripts-bottom-7200.html) Βάλτε τα scripts στο τέλος.
 
 ```html
 <!DOCTYPE html>
