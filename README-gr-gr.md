@@ -234,7 +234,7 @@ services
 </html>
 ```
 
-Keep things simple and put AngularJS specific directives after standard attributes. This will make it easier to skim your code and will make it easier to maintain because your attributes are consistently grouped and positioned.
+Κρατήστε τα πράγματα απλά και βάλτε τα συγκεκριμένα directives του AngularJS μετά από κοινές ιδιότητες. Αυτό θα διευκολύνει να ελαφρύνετε τον κώδικά σας, όπως επίσης και να τον συντηρήσετε, μιας και οι ιδιότητές σας είναι ομαδοποιημένες και τοποθετημένες με συνέπεια.
 
 ```html
 <form class="frm" ng-submit="login.authenticate()">
